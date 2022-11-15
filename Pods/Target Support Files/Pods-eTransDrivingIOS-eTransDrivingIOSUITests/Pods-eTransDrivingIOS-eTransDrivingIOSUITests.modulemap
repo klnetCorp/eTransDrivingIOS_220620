@@ -1,0 +1,6 @@
+framework module Pods_eTransDrivingIOS_eTransDrivingIOSUITests {
+  umbrella header "Pods-eTransDrivingIOS-eTransDrivingIOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

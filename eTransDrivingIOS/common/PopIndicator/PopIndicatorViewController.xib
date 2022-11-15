@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7706"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopIndicatorViewController">
+            <connections>
+                <outlet property="view" destination="HvS-0R-Xrw" id="qSc-bk-jE1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="HvS-0R-Xrw">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="85b-nx-bUk">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="85b-nx-bUk" secondAttribute="trailing" id="6ZD-RJ-18H"/>
+                <constraint firstItem="85b-nx-bUk" firstAttribute="leading" secondItem="HvS-0R-Xrw" secondAttribute="leading" id="B3r-cy-vfE"/>
+                <constraint firstAttribute="bottom" secondItem="85b-nx-bUk" secondAttribute="bottom" id="jsp-n2-G2u"/>
+                <constraint firstItem="85b-nx-bUk" firstAttribute="top" secondItem="HvS-0R-Xrw" secondAttribute="top" id="qW5-N9-iOn"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
